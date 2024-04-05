@@ -7,6 +7,8 @@ import statistics
 from scipy.interpolate import CubicSpline
 import bisect
 
+# Make into a class
+
 
 def load_and_analyze_audio(file_path):
     sound = parselmouth.Sound(file_path)
